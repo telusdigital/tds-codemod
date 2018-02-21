@@ -1,0 +1,15 @@
+{
+  "name": "tds-codemod",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "TELUS digital",
+  "bin": {
+    "tds-codemod": "./index.js"
+  },
+  "dependencies": {
+    "jscodeshift": "^0.4.0",
+    "lodash.find": "^4.6.0",
+    "yargs": "^11.0.0"
+  }
+}
