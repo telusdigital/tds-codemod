@@ -1,0 +1,5 @@
+{
+  "extends": ["@telusdigital/eslint-config", "prettier"],
+  "plugins": ["prettier"],
+  "parser": "babel-eslint"
+}
