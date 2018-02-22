@@ -40,3 +40,12 @@ describe('transforms and groups related child modules', () => {
     `import { ExpandCollapse, Accordion } from '@tds/core-expand-collapse'`
   )
 })
+
+describe('transforms child modules and their aliases', () => {
+  defineInlineTest(
+    transform,
+    {},
+    `import { Accordion as Acc } from '@telusdigital/tds'`,
+    `import { Accordion as Acc } from '@tds/core-expand-collapse'`
+  )
+})
