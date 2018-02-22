@@ -7,6 +7,7 @@
   "bin": {
     "tds-codemod": "./index.js"
   },
+  "private": true,
   "scripts": {
     "test": "jest -c jest.config.js",
     "test:watch": "jest -c jest.config.js --watch"
