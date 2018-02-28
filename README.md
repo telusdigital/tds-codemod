@@ -28,6 +28,12 @@ React components. Before using this codemod, it is recommended to upgrade to TDS
 5. Add missing dependencies for the new split-versioned components. To help list missing dependencies, you can
    run [depcheck](https://www.npmjs.com/package/depcheck) on your project's directory that contains _package.json_
 
+## Wish List
+
+* add instructions for CSS packages
+* gracefully upgrade projects on TDS <= 0.34.z by skipping incompatible modules such as Grid, but upgrading others
+* add or remove dependencies automatically
+
 [facebook-jscodeshift]: https://github.com/facebook/jscodeshift
 [tds-github]: https://github.com/telusdigital/tds
 [migration]: https://github.com/telusdigital/tds/releases/tag/v1.0.0
