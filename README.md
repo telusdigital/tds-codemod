@@ -29,6 +29,8 @@ React components. Before using this codemod, it is recommended to upgrade to TDS
    ```sh
    yarn global add depcheck
    depcheck
+   # copy all the @tds/core-component package names
+   yarn add <list of TDS components>
    ```
 
 ## Wish List
