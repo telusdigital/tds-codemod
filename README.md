@@ -22,7 +22,7 @@ React components. Before using this codemod, it is recommended to upgrade to TDS
 2. Install jscodeshift CLI: `yarn global add jscodeshift` or `npm i -g jscodeshift`
 3. Transform your project files by running the following command, adjust paths as needed:
    ```sh
-   jscodeshift ~/path/to/your/project/ui/src/**/*.jsx -t ~/path/to/tds-codemod/src/transform.js
+   jscodeshift ~/path/to/your/project/ui/src/ --extensions jsx -t ./src/transform.js
    ```
 4. Remove the former TDS package from your project: `yarn remove @telusdigital/tds`
 5. Add missing dependencies for the new split-versioned components. To help list missing dependencies, you can
