@@ -35,6 +35,7 @@ React components. Before using this codemod, it is recommended to upgrade to TDS
 
 ## Wish List
 
+* Restrict upgrades to install split pacakges at `^1.0.0` to avoid breaking changes
 * add instructions for CSS packages
 * gracefully upgrade projects on TDS <= 0.34.z by skipping incompatible modules such as Grid, but upgrading others
 * add or remove dependencies automatically
