@@ -24,8 +24,13 @@ React components. Before using this codemod, it is recommended to upgrade to TDS
    jscodeshift ~/path/to/your/project/ui/src/ --extensions jsx -t ./src/transform.js
    ```
 4. Remove the former TDS package from your project: `yarn remove @telusdigital/tds`
-5. Add missing dependencies for the new split-versioned components. To help list missing dependencies, you can
+5. Add missing dependencies for the new split-versioned components.
+
+   **Note: be sure to install components at `^1.0.0` to avoid breaking changes.**
+
+   To help list missing dependencies, you can
    run [depcheck](https://www.npmjs.com/package/depcheck) on your project's directory that contains _package.json_
+
    ```sh
    yarn global add depcheck
    depcheck
