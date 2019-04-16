@@ -1,0 +1,64 @@
+version: 2.0
+
+id: tds-codemod
+
+about:
+  title: tds-codemod
+  description: A codemod for upgrading from TDS v1 to v2
+
+contacts:
+  - type: Product Owner
+    name: Varun Jain
+    slack: varunjain
+    github: varunj90
+    email: varun.jain@telus.com
+
+  - type: Lead Developer
+    name: Anirudh Swaminathan
+    slack: ani
+    github: simpleimpulse
+    email: anirudh.swaminathan@telus.com
+
+  - type: Developer
+    name: Enrico Sacchetti
+    slack: enrico
+    github: theetrain
+    email: enrico.sacchetti@telus.com
+
+  - type: Developer
+    name: Marco Donnici
+    slack: marcod
+    github: marcod1419
+    email: marco.donnici@telus.com
+
+  - type: Developer
+    name: Jordan Raffoul
+    slack: Jordan Raffoul
+    github: jraff
+    email: jordan.raffoul@telus.com
+
+  - type: Designer
+    name: Christina Lo
+    slack: Christina L.
+    github: Christina-Lo
+    email: christina.lo@telus.com
+
+  - type: Designer
+    name: Donna Vitan
+    slack: donnavitan
+    github: donnavitan
+    email: donna.vitan@telus.com
+
+  - type: Development Team
+    name: TDS Core Team
+    email: n6k7q6p0r9m4c1l4@telusdigital.slack.com
+
+  - type: Tribe
+    name: Digital Platform & Services
+    slackChannel: dps-all
+    email: not.applicable.see.slack.channel@telus.com
+
+environments:
+  - type: git
+    title: Source Code
+    uri: https://github.com/telus/tds-codemod
